@@ -369,7 +369,7 @@ Header
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url('../img/home-bg.jpg');
+    background-image: url('../img/home-bg2.jpg');
     background-attachment: fixed;
     background-position: center;
     z-index: -2;
@@ -426,9 +426,17 @@ About Section
     margin: 15px 0 0;
 }
 
+.about-img .box {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
 .about-img img {
-    width: 100%;
+    width: 400px;
     border-radius: 10px;
+    height: 400px;
 }
 
 .about-img .img-box {
@@ -624,7 +632,7 @@ Team Section
 }
 
 .team-item {
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     padding: 0 15px;
     position: relative;
 }
@@ -678,7 +686,7 @@ Footer
 ---------------- */
 .footer {
     padding: 80px 0 0;
-    background-image: url("../img/footer-bg.jpg");
+    background-color: var(--dark-light);
     background-size: cover;
     background-position-x: center;
     position: relative;
